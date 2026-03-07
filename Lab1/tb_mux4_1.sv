@@ -1,10 +1,10 @@
 `timescale 1ns/1ps
 
-module tb_mux4x1;
+module tb_mux4_1;
   logic [5:0] count;
   logic muxOut;
 
-  mux4x1 dut(
+  mux4_1 dut(
     .f   (muxOut),
     .a   (count[5]),
     .b   (count[4]),
@@ -23,3 +23,4 @@ module tb_mux4x1;
   end
 
 endmodule: tb_mux4x1
+
