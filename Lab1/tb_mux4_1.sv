@@ -16,7 +16,7 @@ module tb_mux4_1;
   );
 
   initial begin
-    $monitor($time, " sel=%b | a=%h | b=%h | c=%h | d=%h | out=%h",
+    $monitor($time, " sel=%b | a=%b | b=%b | c=%b | d=%b | out=%b",
              sel, a, b, c, d, muxOut);
 
     // valores distintos de 32 bits em cada entrada
@@ -35,3 +35,4 @@ module tb_mux4_1;
   end
 
 endmodule: tb_mux4_1
+
