@@ -1,4 +1,4 @@
-// multiplier_control_refined.sv
+// mult_refinado_controle.sv
 // FSM de controle da unidade de multiplicacao refinada
 // Baseado na Figura 3.5 - Patterson & Hennessy
 //
@@ -15,7 +15,7 @@
 //   SHIFT       — shift right de 65 bits; incrementa contador
 //   DONE        — sinaliza conclusao; aguarda !start para voltar ao IDLE
 
-module multiplier_control_refined (
+module mult_refinado_controle (
     input  logic clk,
     input  logic rst_n,
 
